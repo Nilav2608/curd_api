@@ -6,7 +6,13 @@ class AppButton extends StatelessWidget {
   final String method;
   final String operation;
   final Color? methodColor;
-  const AppButton({super.key,required this.operation, required this.methodColor, required this.method, required this.onPressed});
+  const AppButton({
+    super.key,
+    required this.operation, 
+    required this.methodColor, 
+    required this.method, 
+    required this.onPressed
+  });
 
   @override
   Widget build(BuildContext context) {
